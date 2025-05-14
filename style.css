@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  header {
+    background: #501214; /* Bobcat Maroon */
+    color: white;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: white;
+  }
+  
+  .section {
+    padding: 40px 0;
+    background: white;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    background: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #501214;
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background: #501214;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #333;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e1e2f;
+    color: white;
+  }
+  .headshot {
+    width: 220x;
+    height: 220px;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

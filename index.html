@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joshua Nieto | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+          <img src="headshot.jpg" alt="Joshua Nieto headshot" class="headshot" />
+          <h1>Joshua Nieto</h1>
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#hobbies">Hobbies</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a Computer Science graduate from Texas State University in May 2024 with a minor in Mathematics. I’m passionate about coding, problem-solving, and eager to start my professional journey in tech. I have amassed lots of troubleshooting experiance as a PC Technitian and my background in school gave me years of experience in learning new software very quickly. I aslo have great skills in communication, customer servince, and interpersonal through my time in sales.</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Hobbies</h2>
+      <p>Outside of my professional life, I enjoy being as active as I can through running, bouldering, and weighlifting. When I am ready to relax I enduldge in watching F1 (die hard Red Bull fan) and playing videogames. Other thingds I enjoy include hunting and fishing a few times a year.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project Name</h3>
+        <p>Description of the project, technologies used, and a link to GitHub or live demo.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Parallel Fractal Image Generator (C++ & MPI)</h3>
+        <p>Built a high-performance fractal generator using C++ and MPI to compute and render complex images in parallel. The program distributes pixel calculations across multiple processes to dramatically improve performance on multi-core systems. It outputs the final result as a BMP image, demonstrating skills in parallel computing, memory management, and image processing.</p>
+        <a href="https://github.com/jnieto4/Fractal" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Personal Portfolio Website (HTML & CSS & JavaScript)</h3>
+        <p>This is my personal portfolio website, developed from scratch using HTML, CSS, and JavaScript. The website serves as a showcase of my skills, experience, and projects, providing potential employers with a comprehensive view of my work. The website includes responsive design, interactive elements, and a user-friendly layout. The goal was to create an aesthetically pleasing and functional space where I can display my achievements, highlight key projects, and provide easy access to my GitHub repository and contact information.</p>
+        <a href="https://github.com/jnieto4/Fractal" target="_blank">View on GitHub</a>
+      </div>
+      <!-- Duplicate the .project block for more projects -->
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="from_name" placeholder="Your Name" required />
+        <input type="email" name="reply_to" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Joshua Nieto. All rights
